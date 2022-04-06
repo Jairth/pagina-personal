@@ -97,9 +97,15 @@
 
 
 .footer-nav__link{
+    display: flex;
     width: 1.75rem;
+    transition: all 0.25s;
 }
 
+.footer-nav__link:hover{
+    filter: brightness(115%);
+    transform: scale(1.25);
+}
 .footer-nav__link-image{
     width: 100%;
 }
