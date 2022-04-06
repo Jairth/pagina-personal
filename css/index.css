@@ -1,0 +1,107 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn77.pressenza.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fpattern-3261400_12801.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+}
+
+.header__image-container{
+    display: flex;
+    max-width: 256px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.header__image{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+}
+
+.article{
+    display: flex;
+}
+
+.article-container{
+    display: flex;
+    padding: 0 2rem ;
+}
+
+.article__card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: #16181dbf;
+    max-width: 256px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.article__card-tittle{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.article__card-keywords{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.article__card-description{
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer-nav{
+    display: flex;
+}
+
+.footer-nav-container{
+    display: flex;
+}
+
+.footer-nav__link-list{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav__link-item{
+    display: flex;
+}
+
+
+.footer-nav__link{
+    width: 1.75rem;
+}
+
+.footer-nav__link-image{
+    width: 100%;
+}
+
+
