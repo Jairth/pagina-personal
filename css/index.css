@@ -71,6 +71,10 @@
     margin: 0;
 }
 
+.article__card-descriptio::after{
+    content: '📚';
+}
+
 .footer{
     display: flex;
 }
@@ -99,12 +103,12 @@
 .footer-nav__link{
     display: flex;
     width: 1.75rem;
-    transition: all 0.25s;
+    transition: all 1s;
 }
 
 .footer-nav__link:hover{
     filter: brightness(115%);
-    transform: scale(1.25);
+    transform: scale(1.25) rotate(360deg);
 }
 .footer-nav__link-image{
     width: 100%;
